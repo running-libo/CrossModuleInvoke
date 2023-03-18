@@ -14,4 +14,7 @@ public class Injector {
         classs.put(name, cls);
     }
 
+    public static Class<?> getClass(String path) {
+        return classs.get(path);
+    }
 }
